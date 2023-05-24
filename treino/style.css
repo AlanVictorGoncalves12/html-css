@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Android";
+  src: url("../fontes/idroid.otf") format("opentype");
+  font-weight: normal;
+}
+
+:root {
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: "Bebas Neue", cursive;
+  --fonte-android: "Android", cursive;
+
+  --cor0: #d8d8d8;
+  --cor1: #bebebe;
+  --cor2: #868686;
+  --cor3: #5a5a5a;
+  --cor4: #272727;
+  --cor5: #063d1e;
+}
+
+body {
+  font-family: var(--fonte-padrao);
+  background-color: var(--cor0);
+  margin: auto;
+}
+header {
+  background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+  padding: 10px;
+  margin: 10px;
+  min-height: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+}
+
+h2,
+h1 {
+  font-family: var(--fonte-destaque);
+  text-align: center;
+}
+
+nav {
+  background-color: var(--cor2);
+  padding: 3px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+  border-radius: 10px;
+}
+
+nav > ol {
+  columns: 2;
+}
+
+.li-margin {
+  margin: 1em 0;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.text-header {
+  font-family: var(--fonte-padrao);
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: var(--cor0);
+  border-radius: 10px 0px;
+  box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+}
+
+article {
+  background-color: lightgray;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 0px;
+}
+
+footer > p {
+  margin: 0px;
+}
+
+.image-hover {
+  display: inline-block;
+  position: relative;
+}
+
+.image-hover > p {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  display: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 10000;
+}
+
+.image-hover:hover > p {
+  display: block;
+}
+
+div img {
+  
+}

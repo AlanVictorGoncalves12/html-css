@@ -1,0 +1,12 @@
+A diferença entre HTML, CSS e JavaScript - @Curso em Vídeo HTML5 e CSS3
+Minuto: 20:10 esplica o nome dos componentes do Estilo em CSS
+
+
+https://emojipedia.org/ 	#Site onde tem os emojis
+
+Ctrl + Shift + P = Abre um atalho que usamos para colocar tags rapidamente
+
+
+usar a tag <q> para fazer citações
+
+Ctrl + Barra de Espaço = Surge uns menus 
