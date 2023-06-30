@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -19,9 +20,30 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
         }
 
         td.num {
@@ -34,6 +56,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -42,15 +65,16 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>211.755.692</strong></td>
             </tr>
         </tfoot>
@@ -83,8 +107,29 @@
                 <td>Pernambuco</td>
                 <td class="num">9.058.155</td>
             </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.791.688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.116.132</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.609.601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.055.228</td>
+            </tr>
         </tbody>
-        
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo rem ea? Consequuntur aperiam, magnam nostrum corrupti itaque neque voluptate odit aliquid sunt rem, amet, repudiandae obcaecati corporis officiis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima molestiae cum adipisci dignissimos pariatur vitae possimus dolore quo maiores, quisquam, soluta suscipit iste? Asperiores ex autem molestiae corrupti accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere animi vero? Sit saepe eligendi fugit sunt deserunt sed. Beatae rerum sed vero officia dolorem earum facilis nostrum pariatur nisi!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo rem ea? Consequuntur aperiam, magnam nostrum corrupti itaque neque voluptate odit aliquid sunt rem, amet, repudiandae obcaecati corporis officiis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima molestiae cum adipisci dignissimos pariatur vitae possimus dolore quo maiores, quisquam, soluta suscipit iste? Asperiores ex autem molestiae corrupti accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere animi vero? Sit saepe eligendi fugit sunt deserunt sed. Beatae rerum sed vero officia dolorem earum facilis nostrum pariatur nisi!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo rem ea? Consequuntur aperiam, magnam nostrum corrupti itaque neque voluptate odit aliquid sunt rem, amet, repudiandae obcaecati corporis officiis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima molestiae cum adipisci dignissimos pariatur vitae possimus dolore quo maiores, quisquam, soluta suscipit iste? Asperiores ex autem molestiae corrupti accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere animi vero? Sit saepe eligendi fugit sunt deserunt sed. Beatae rerum sed vero officia dolorem earum facilis nostrum pariatur nisi!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo rem ea? Consequuntur aperiam, magnam nostrum corrupti itaque neque voluptate odit aliquid sunt rem, amet, repudiandae obcaecati corporis officiis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima molestiae cum adipisci dignissimos pariatur vitae possimus dolore quo maiores, quisquam, soluta suscipit iste? Asperiores ex autem molestiae corrupti accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere animi vero? Sit saepe eligendi fugit sunt deserunt sed. Beatae rerum sed vero officia dolorem earum facilis nostrum pariatur nisi!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo rem ea? Consequuntur aperiam, magnam nostrum corrupti itaque neque voluptate odit aliquid sunt rem, amet, repudiandae obcaecati corporis officiis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima molestiae cum adipisci dignissimos pariatur vitae possimus dolore quo maiores, quisquam, soluta suscipit iste? Asperiores ex autem molestiae corrupti accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere animi vero? Sit saepe eligendi fugit sunt deserunt sed. Beatae rerum sed vero officia dolorem earum facilis nostrum pariatur nisi!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo rem ea? Consequuntur aperiam, magnam nostrum corrupti itaque neque voluptate odit aliquid sunt rem, amet, repudiandae obcaecati corporis officiis nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id minima molestiae cum adipisci dignissimos pariatur vitae possimus dolore quo maiores, quisquam, soluta suscipit iste? Asperiores ex autem molestiae corrupti accusamus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus facere animi vero? Sit saepe eligendi fugit sunt deserunt sed. Beatae rerum sed vero officia dolorem earum facilis nostrum pariatur nisi!</p>
 </body>
 </html>
