@@ -40,12 +40,11 @@ h1 {
 img {
     display: block;
     margin: auto;
-}
-
-img#phone { display: block; 
     height: 150px;
     width: 150px;
 }
+
+img#phone { display: block; }
 img#tablet { display: none; }
 img#print { display: none; }
 img#pc { display: none; }
