@@ -6,6 +6,18 @@ Repositório criado para armazenar os **exercícios e desafios desenvolvidos dur
 
 O curso apresenta os fundamentos do desenvolvimento de páginas web utilizando **HTML5 e CSS3**, abordando desde a estrutura básica de uma página até conceitos de estilização, organização e responsividade.
 
+## 💻 Tecnologias utilizadas
+
+* **HTML5**
+* **CSS3**
+* **Visual Studio Code**
+
+## 🛠️ Ferramentas utilizadas
+
+* **Visual Studio Code**
+* **Git**
+* **GitHub**
+
 ### 📝 Conteúdos estudados
 
 * Estrutura básica do HTML
@@ -29,12 +41,6 @@ O curso apresenta os fundamentos do desenvolvimento de páginas web utilizando *
 * Flexbox
 * Responsividade
 * Desenvolvimento de páginas web
-
-## 💻 Tecnologias utilizadas
-
-* **HTML5**
-* **CSS3**
-* **Visual Studio Code**
 
 ## 📂 Organização
 
